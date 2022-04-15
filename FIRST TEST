@@ -1,0 +1,39 @@
+package com.chainsys.FirstTest;
+/**
+ * @author prav3109-prav
+ * Date - 30-03-2022
+* Question :
+* Solve the equation 2x2 + x + 5 for all numbers between 5 and 10 for x.
+ */
+public class SolveEquation 
+{
+  public static void main(String[] args) 
+    {
+       solve();
+       }
+ public static void solve() 
+    {
+    {
+          for (int count = 5; count <= 10; count++) {
+           long equation = ((2 * (count * count)) + count + 5);
+         System.out.println("number = " + count +" " +"Equation =" + equation);
+         }
+       }
+     }
+    }
+
+
+
+...Output...
+
+Number = 5 Equation =60
+
+Number = 6 Equation =83
+
+Number = 7 Equation =110
+
+Number = 8 Equation =141
+
+Number = 9 Equation =176
+
+Number = 10 Equation =215
